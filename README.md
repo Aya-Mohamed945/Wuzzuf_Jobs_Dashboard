@@ -22,7 +22,17 @@ An interactive dashboard that analyzes the Egyptian and international data job m
 - **Comprehensive Analysis**: Job titles, locations, work modes, employment types, and skills  
 
 ---
+## 📸 **Screenshots**
 
+| Top Jobs Dashboard | Geographic Analysis |
+|--------------------|---------------------|
+| ![Top Jobs](https://i.postimg.cc/QCBjT6Vf/Screenshot-2026-03-03-235804.png) | ![Map](https://i.postimg.cc/HW5YdNDx/Screenshot-2026-03-04-000314.png) |
+
+| Work Modes | Skills Analysis |
+|------------|-----------------|
+| ![Work Modes](https://i.postimg.cc/4dk05B8b/Screenshot-2026-03-04-000438.png) | ![Skills](https://i.postimg.cc/254Gzmwc/Screenshot-2026-03-04-000620.png) |
+
+---
 ## 🚀 Live Demo
 
 👉 **[Click here to view the live dashboard](https://wuzzufjobsdashboard-fkgmjbotfp8dubuumexhu3.streamlit.app/)** 👈
