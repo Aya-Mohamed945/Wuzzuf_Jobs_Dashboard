@@ -287,8 +287,8 @@ if data_loaded and df is not None:
         skill_freq = pd.Series(skill_list).value_counts().head(20).reset_index()
         skill_freq.columns = ['Skill', 'Frequency']
         
-        st.markdown("### 🔝 Top 20 Skills")
-        st.dataframe(skill_freq, use_container_width=True)
+    #    st.markdown("### 🔝 Top 20 Skills")
+    #    st.dataframe(skill_freq, use_container_width=True)
     
     st.markdown("---")
     
