@@ -1,4 +1,3 @@
-
 # 📊 Wuzzuf Jobs Data Analysis Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -6,181 +5,211 @@
 ![Plotly](https://img.shields.io/badge/Plotly-5.17+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📋 **Project Overview**
-An interactive dashboard that analyzes the Egyptian and international data job market by scraping and visualizing job postings from Wuzzuf, Egypt's leading job platform.
+---
 
-### 🎯 **Key Features**
-- **Live Web Scraping**: Collect real-time job data from Wuzzuf.net
-- **Multi-source Data**: Use existing CSV, scrape fresh data, or upload your own
-- **Interactive Visualizations**: Built with Plotly for rich, responsive charts
-- **Arabic Text Support**: Full translation of Arabic job listings to English
-- **Comprehensive Analysis**: Job titles, locations, work modes, employment types, and skills
+## 📋 Project Overview
+
+An interactive dashboard that analyzes the Egyptian and international data job market by scraping and visualizing job postings from Wuzzuf, Egypt's leading job platform.
 
 ---
 
-## 🚀 **Live Demo**
+## 🎯 Key Features
+
+- **Live Web Scraping**: Collect real-time job data from Wuzzuf.net  
+- **Multi-source Data**: Use existing CSV, scrape fresh data, or upload your own  
+- **Interactive Visualizations**: Built with Plotly for rich, responsive charts  
+- **Arabic Text Support**: Full translation of Arabic job listings to English  
+- **Comprehensive Analysis**: Job titles, locations, work modes, employment types, and skills  
+
+---
+
+## 🚀 Live Demo
+
 👉 **[Click here to view the live dashboard](https://wuzzufjobsdashboard-fkgmjbotfp8dubuumexhu3.streamlit.app/)** 👈
 
 ---
 
-## 📊 **Dashboard Sections**
+## 📊 Dashboard Sections
 
-### 1️⃣ **Job Distribution**
-- Top 5 most demanded job titles
-- Work modes breakdown (On-site, Remote, Hybrid)
-- Employment types distribution
+### 1️⃣ Job Distribution
+- Top 5 most demanded job titles  
+- Work modes breakdown (On-site, Remote, Hybrid)  
+- Employment types distribution  
 
-### 2️⃣ **Geographic Analysis**
-- Jobs per city in Egypt
-- International job distribution
-- Interactive world map with log scale
-- Remote opportunities by location
+### 2️⃣ Geographic Analysis
+- Jobs per city in Egypt  
+- International job distribution  
+- Interactive world map with log scale  
+- Remote opportunities by location  
 
-### 3️⃣ **Employment Details**
-- Top companies hiring
-- Employment types analysis
-- Job market insights
+### 3️⃣ Employment Details
+- Top companies hiring  
+- Employment types analysis  
+- Job market insights  
 
-### 4️⃣ **Skills Analysis**
-- Top 20 most requested skills
-- Skill frequency visualization
-- Market trend identification
+### 4️⃣ Skills Analysis
+- Top 20 most requested skills  
+- Skill frequency visualization  
+- Market trend identification  
 
 ---
 
-## 🔧 **Tech Stack**
+## 🔧 Tech Stack
 
 | Purpose | Tools/Libraries |
-|---------|-----------------|
-| **Web Scraping** | `requests`, `BeautifulSoup4` |
-| **Data Processing** | `pandas`, `numpy` |
-| **Visualizations** | `plotly`, `matplotlib` |
-| **Dashboard** | `streamlit` |
-| **Deployment** | Streamlit Cloud |
+|----------|----------------|
+| Web Scraping | `requests`, `BeautifulSoup4` |
+| Data Processing | `pandas`, `numpy` |
+| Visualizations | `plotly`, `matplotlib` |
+| Dashboard | `streamlit` |
+| Deployment | Streamlit Cloud |
 
 ---
 
-## 📦 **Installation & Local Setup**
+## 📦 Installation & Local Setup
 
-### ✅ **Prerequisites**
-Make sure you have the following installed:
-- **Python 3.8 or higher** ([Download Python](https://www.python.org/downloads/))
-- **Git** ([Download Git](https://git-scm.com/downloads))
+### Prerequisites
 
-### 🚀 **Step-by-Step Installation**
+- Python 3.8 or higher  
+- Git  
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Aya-Mohamed945/Wuzzuf_Jobs_Dashboard.git
-   cd Wuzzuf_Jobs_Dashboard
-(Optional but recommended) Create a virtual environment
+---
 
-bash
-# Windows
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Aya-Mohamed945/Wuzzuf_Jobs_Dashboard.git
+cd Wuzzuf_Jobs_Dashboard
+```
+
+---
+
+### 2️⃣ (Optional) Create a Virtual Environment
+
+#### Windows
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-# Mac/Linux
+#### Mac / Linux
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-Install required packages
-
-bash
-pip install -r requirements.txt
-Run the app locally
-
-bash
-streamlit run streamlit_app.py
-Open in browser
-
-The app will automatically open at: http://localhost:8501
-
-If not, copy and paste this link manually
-
-⚠️ Common Issues & Solutions
-Problem	Solution
-pip not recognized	Reinstall Python and check "Add Python to PATH"
-streamlit not found	Run pip install streamlit manually
-Port 8501 already in use	Run: streamlit run streamlit_app.py --server.port 8502
-🎉 Done! The dashboard is now running on your local machine.
-
-🗂️ Project Structure
-text
-Wuzzuf_Jobs_Dashboard/
-│
-├── streamlit_app.py          # Main dashboard application
-├── scraper.py                 # Web scraping functions
-├── data_cleaning.py           # Data cleaning and translation
-├── visualizations.py           # All visualization functions
-├── requirements.txt           # Project dependencies
-├── .gitignore                  # Git ignore rules
-└── README.md                   # Project documentation
-📈 Key Insights
-Insight	Finding
-Market Concentration	75%+ of Egyptian jobs in Cairo/Giza
-Work Culture	87.6% on-site, minimal remote/hybrid
-Top Demands	Data Entry > Accountant > Data Analyst > Data Scientist
-International Reach	Opportunities in US, UK, UAE, Libya
-Remote Work	6.4% of total jobs, concentrated in Cairo
-🛠️ How to Use
-Option 1: Use Existing Data
-Select "📁 Use existing CSV" from sidebar
-
-Dashboard loads immediately
-
-Option 2: Scrape Fresh Data
-Select "🆕 Scrape fresh data from Wuzzuf"
-
-Click "Start Scraping" (takes 2-3 minutes)
-
-New data appears automatically
-
-Option 3: Upload Your Own CSV
-Select "📤 Upload your own CSV file"
-
-Ensure your CSV has required columns:
-
-job_title, companies, locations
-
-employment_types, work_modes, skills
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-📄 License
-This project is MIT licensed.
-
-👩‍💻 Author
-Aya Mohamed
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-
-⭐ Show your support
-Give a ⭐️ if this project helped you!
-
-text
+```
 
 ---
 
-## 🚀 **بعد ما تحطي الكود:**
+### 3️⃣ Install Dependencies
 
-في Terminal:
 ```bash
-git add README.md
-git commit -m "Update README with improved installation guide"
-git push
-وبعد شوية التحديث يظهر على GitHub ✨
+pip install -r requirements.txt
+```
 
-الـ README دلوقتي:
+---
 
-✅ واضح وسهل
+### 4️⃣ Run the App
 
-✅ فيه خطوات التثبيت بالتفصيل
+```bash
+streamlit run streamlit_app.py
+```
 
-✅ فيه troubleshooting
+---
 
-✅ شكله جميل ومنظم
+### 5️⃣ Open in Browser
 
-أخيريني لو عايزة تعدلي حاجة تانية! 😊
+The app will automatically open at:
 
+```
+http://localhost:8501
+```
 
+If it doesn't open automatically, paste the link manually into your browser.
+
+---
+
+## ⚠️ Common Issues
+
+| Problem | Solution |
+|----------|----------|
+| `pip` not recognized | Reinstall Python and check **"Add to PATH"** |
+| `streamlit` not found | Run `pip install streamlit` |
+| Port 8501 already in use | Run `streamlit run streamlit_app.py --server.port 8502` |
+
+---
+
+## 🗂️ Project Structure
+
+```text
+Wuzzuf_Jobs_Dashboard/
+│
+├── streamlit_app.py        # Main dashboard
+├── scraper.py              # Web scraping logic
+├── data_cleaning.py        # Data cleaning & preprocessing
+├── visualizations.py       # Charts & graphs
+├── requirements.txt        # Dependencies
+├── .gitignore              # Git ignored files
+└── README.md               # Documentation
+```
+
+---
+
+## 📈 Key Insights
+
+| Insight | Finding |
+|----------|----------|
+| Market Concentration | 75%+ of jobs in Cairo & Giza |
+| Work Culture | 87.6% On-site roles |
+| Top Demands | Data Entry > Accountant > Data Analyst |
+| International Reach | US, UK, UAE, Libya |
+| Remote Work | 6.4% of total jobs |
+
+---
+
+## 🛠️ How to Use
+
+### Option 1: Use Existing Data
+Select **📁 Use existing CSV** from the sidebar.
+
+### Option 2: Scrape Fresh Data
+Select **🆕 Scrape fresh data**  
+Click **Start Scraping** (takes 2–3 minutes)
+
+### Option 3: Upload Your Own CSV
+Select **📤 Upload CSV**
+
+Required columns:
+
+```
+job_title
+companies
+locations
+employment_types
+work_modes
+skills
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 👩‍💻 Author
+
+**Aya Mohamed**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aya-Mohamed945)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aya-mohamed-94a256347/)
+
+---
+
+## ⭐ Show Your Support
+
+If this project helped you, please give it a ⭐ on GitHub!
