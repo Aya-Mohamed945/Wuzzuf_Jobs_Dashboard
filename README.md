@@ -219,9 +219,9 @@ This project is licensed under the MIT License.
 
 **Aya Abd Elazim**
 
-[![GitHub](www.linkedin.com/in/aya-abd-elazim-94a256347)
+![GitHub](www.linkedin.com/in/aya-abd-elazim-94a256347)
 
-[![LinkedIn](https://www.linkedin.com/in/aya-abd-elazim-94a256347/?isSelfProfile=true)
+![LinkedIn](https://www.linkedin.com/in/aya-abd-elazim-94a256347/?isSelfProfile=true)
 
 ---
 
