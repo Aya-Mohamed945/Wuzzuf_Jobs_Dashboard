@@ -18,7 +18,7 @@ An interactive dashboard that analyzes the Egyptian and international data job m
 ---
 
 ## 🚀 **Live Demo**
-👉 **[Click here to view the live dashboard](https://wuzzufjobsdashboard.streamlit.app)** 👈
+👉 **[Click here to view the live dashboard](https://wuzzufjobsdashboard-fkgmjbotfp8dubuumexhu3.streamlit.app/)** 👈
 
 ---
 
