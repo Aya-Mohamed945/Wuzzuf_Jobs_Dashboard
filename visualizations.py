@@ -164,7 +164,7 @@ def remote_jobs_city(df):
 def skills_wordcloud(df):
     """Generate word cloud data from skills (simplified version)"""
     all_skills = df['skills'].dropna().str.cat(sep=' ')
-    skill_list = all_skills.split()
+    skill_list = all_skills.replace(',', ' ').replace('·', ' ').split()
     skill_freq = pd.Series(skill_list).value_counts().head(20).reset_index()
     skill_freq.columns = ['skill', 'count']
     

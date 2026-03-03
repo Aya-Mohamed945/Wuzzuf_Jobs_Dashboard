@@ -64,7 +64,7 @@ def scrape_wuzzuf(pages=41, progress_callback=None):
                 # Skills
                 all_skills = job.find_all('a', class_="css-o171kl")
                 skill = [skill.text for skill in all_skills]
-                skills.append(', '.join(skill) if skill else 'None')
+                skills.append(' '.join(skill) if skill else 'None')
 
             time.sleep(1)  # Be respectful to the server
 
