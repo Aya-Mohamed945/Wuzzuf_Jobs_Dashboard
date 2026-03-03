@@ -1,4 +1,4 @@
-```markdown
+
 # 📊 Wuzzuf Jobs Data Analysis Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
