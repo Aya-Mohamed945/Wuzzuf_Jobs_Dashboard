@@ -1,0 +1,13 @@
+.vs/
+.vscode/
+
+__pycache__/
+*.pyc
+
+ 
+*.csv
+Wuzzuf.csv
+
+.env
+venv/
+env/
