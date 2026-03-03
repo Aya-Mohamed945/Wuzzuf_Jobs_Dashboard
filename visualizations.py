@@ -167,7 +167,7 @@ def skills_wordcloud(df):
     all_skills = df['skills'].dropna().str.cat(sep=' ')
     
     # تنظيف النص من الفواصل والرموز
-    cleaned_skills = all_skills.replace(',', ' ').replace('·', ' ').replace('&', ' ').replace('/', ' ')
+    cleaned_skills = all_skills.replace(',', ' ').replace('·', ' ').replace('&', ' ').replace('/', ' ').replace('-', ' ')
     
     # تقسيم النص إلى كلمات
     skill_list = cleaned_skills.split()
