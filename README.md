@@ -209,10 +209,15 @@ Contributions are welcome!
 Feel free to fork the repository and submit a pull request.
 
 ---
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
 
 ## 👩‍💻 Author
 
-**Aya Mohamed**
+**Aya Abd Elazim**
 
 [![GitHub](www.linkedin.com/in/aya-abd-elazim-94a256347)
 
